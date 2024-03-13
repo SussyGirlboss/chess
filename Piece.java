@@ -4,6 +4,6 @@ interface Piece {
   
   char getUnicode();
 
-  boolean isLegal();
+  boolean isLegal(int row, int col);
 
 }
